@@ -528,11 +528,18 @@ html.is-leaving .transition-fade {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  #CONTACTTXTH3 {
+    width: 90% !important;
+  }
+
   .contactsubmit {
     width: 100% !important;
   }
   .form-input {
     width: 100%;
+  }
+  p {
+    margin: auto;
   }
   form {
     margin-bottom: 30px;
@@ -628,201 +635,23 @@ html.is-leaving .transition-fade {
     width: 100%;
   }
 }
-/* @media screen and (max-height: 1150px) {
-  #logo {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-height: 671px) {
-  #logo {
-    margin-top: 60px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .presentation {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .introduction {
-    margin-top: 5vh;
-    text-align: center;
-  }
-  .intro-text h1 {
-    font-size: 30px;
-  }
-  .intro-text p {
-    font-size: 18px;
-  }
-  .cta {
-    padding: 10px 0px 0px 0px;
-  }
-  .laptop-select {
-    bottom: 5%;
-    right: 50%;
-    width: 50%;
-    -webkit-transform: translate(50%, 5%);
-    -moz-transform: translate(50%, 5%);
-    -ms-transform: translate(50%, 5%);
-    -o-transform: translate(50%, 5%);
-    transform: translate(50%, 5%);
-  }
-  .cover img {
-    height: 80%;
-  }
-
-  .small-circle,
-  .medium-circle,
-  .big-circle {
-    opacity: 0.2;
-  }
-}
-
-@media screen and (max-width: 1056px) {
-  button,
-  input {
-    margin: 0 !important;
-  }
-}
-
-@media screen and (max-width: 542px) {
-  img {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-@media screen and (max-width: 498px) {
-  img {
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    -o-transform: scale(0.7);
-    transform: scale(0.7);
-  }
-  main {
-    max-width: 100vw;
-  }
-  header {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  .c {
-    display: none;
-  }
-  .presentation {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-@media screen and (max-width: 442px) {
-  .presentation {
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    -o-transform: scale(0.7);
-    transform: scale(0.7);
-  }
-}
-
-@media screen and (max-width: 346px) {
-  .presentation {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  button,
-  input {
-    margin: 30px !important;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  nav {
-    -webkit-box-flex: 3;
-    -webkit-flex: 3;
-    -moz-box-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-  }
-}
-
-@media screen and (max-width: 394px) {
-  header {
-    width: 100vw !important;
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .logo-container {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 2132px) {
-  .abouttxt {
-    width: 90% !important;
-  }
-}
-
-@media screen and (max-width: 1714px) {
+@media screen and (max-width: 1706px) {
   .imgabout {
-    height: 330px !important;
-    width: 500px;
+    width: 400px;
+    height: 300px !important;
     margin: auto;
   }
 }
-
-@media screen and (max-width: 1146px) {
-  .abouttxt {
-    font-size: 15px !important;
+@media screen and (max-width: 1914px) {
+  #more-info-img {
+    width: 400px;
+    height: auto;
     margin: auto;
   }
-}
-
-
-
-@media screen and (max-width: 1489px) {
-  .intro-text p {
-    font-size: 15px;
+  .moreinfoquote {
+    margin: 0 auto !important;
+  }
+  #moreinfoptexttxt {
+    width: 100% !important;
   }
 }
-
-@media screen and (max-width: 1233px) {
-  img {
-    transform: scale(0.6);
-  }
-}
-
-@media screen and (max-width: 1127px) {
-  button {
-    margin-left: 0 !important;
-    margin-top: 30px !important;
-  }
-  .intro-text {
-    text-align: center;
-    margin: auto;
-  }
-  .quote {
-    font-size: 15px !important;
-  }
-} */
