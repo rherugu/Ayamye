@@ -485,6 +485,10 @@ html.is-leaving .transition-fade {
     transform: translateX(0px);
   }
 }
+.logo {
+  height: 100px !important;
+  width: auto !important;
+}
 /*RESPONSIVE*/
 
 @media screen and (max-width: 1571px) {
