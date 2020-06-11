@@ -173,6 +173,7 @@ input[type="number"] {
   transition: all 0.3s ease;
 }
 button:focus,
+textarea:focus,
 input:focus {
   outline: none;
   -webkit-box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
@@ -393,6 +394,24 @@ img {
 main {
   height: 90vh !important;
 }
+.form-input {
+  margin: 15px 0px;
+  width: 50%;
+  height: 30px;
+}
+
+textarea,
+input {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease-in-out !important;
+  all: unset;
+  border: solid 1px black;
+  border-radius: 2px;
+  padding: 3px;
+}
+.message {
+  height: 70px;
+}
 
 html.is-animating .transition-fade {
   opacity: 0;
@@ -490,6 +509,11 @@ html.is-leaving .transition-fade {
     margin-bottom: 0 !important;
   }
 }
+@media screen and (max-width: 813px) {
+  .logo-container {
+    display: none;
+  }
+}
 @media screen and (max-width: 933px) {
   .presentation {
     -webkit-box-orient: vertical;
@@ -499,6 +523,15 @@ html.is-leaving .transition-fade {
     -moz-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .contactsubmit {
+    width: 100% !important;
+  }
+  .form-input {
+    width: 100%;
+  }
+  form {
+    margin-bottom: 30px;
   }
   .introduction {
     margin-top: 5vh;
@@ -536,7 +569,11 @@ html.is-leaving .transition-fade {
     opacity: 0.2;
   }
 }
-
+@media screen and (max-width: 419px) {
+  .nav-link {
+    font-size: 15px !important;
+  }
+}
 @media screen and (max-width: 613px) {
   .nav-link {
     font-size: 19px;
@@ -547,9 +584,7 @@ html.is-leaving .transition-fade {
   .logo-container {
     display: none;
   }
-  header {
-    width: 50%;
-  }
+
   #homeimg {
     width: 200px;
     height: auto;
