@@ -37,11 +37,8 @@
             <h1>Every dollar makes a difference.</h1>
             <p>
               All the money donated goes to VIMA Children's Home in Africa to
-              make a school. The kids there cannot experience the joy of
-              learning, so you could help a kid get the education they want. The
-              kids there want a good job like you and I, but they might not
-              achieve that if they don't have a school. So it would be truly
-              helpful if you took a minute of your time and donated.
+              complete the construction of the school. This will give the kids
+              an opportunity to experience the joy of learning.
             </p>
           </div>
           <div class="cta">
@@ -79,7 +76,11 @@
         alt=""
       />
     </main>
+    <script src="jquery-3.5.1.min.js"></script>
     <script>
+      $(document).ready(function () {
+        $(this).scrollTop(0);
+      });
       function donate() {
         setTimeout(() => {
           window.open(

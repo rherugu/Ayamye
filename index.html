@@ -123,8 +123,12 @@
         alt=""
       />
     </main>
+    <script src="jquery-3.5.1.min.js"></script>
     <script src="app.js"></script>
     <script>
+      $(document).ready(function () {
+        $(this).scrollTop(0);
+      });
       function donate() {
         setTimeout(() => {
           window.open(
