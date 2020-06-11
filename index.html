@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/favicon.ico" />
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ayamye</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="./img/Logo.jpeg" alt="logo" id="logo" class="logo" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="/index.html">Home</a></li>
+          <li class="moreinfoclassname">
+            <a class="nav-link" href="/moreinfo.html">More Info</a>
+          </li>
+          <li><a class="nav-link" href="/about.html">About</a></li>
+          <li><a class="nav-link" href="/donate.html">Donate</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line1 line"></div>
+        <div class="line2 line"></div>
+        <div class="line3 line"></div>
+      </div>
+    </header>
+
+    <main id="swup" class="transition-fade">
+      <section class="presentation">
+        <div class="introduction">
+          <div class="intro-text">
+            <h1>Ayamye.</h1>
+            <br />
+            <p>
+              It means <i>Kindness</i> in Twi, a language widely spoken in
+              Ghana. <br />
+              <br />
+
+              An act of kindness could be as simple as holding the door for
+              someone or becoming part of a cause much bigger. Kindness inspires
+              you to make a significant impact on the world for the better. A
+              small act of kindness from us could mean a roof over the heads of
+              dozens of underprivileged children. It could mean two square meals
+              per day. It could mean providing basic education.
+
+              <br />
+              <br />
+
+              We at Ayamye are honored to be partnered with ThinkKindness.org to
+              contribute towards the mission of helping an orphanage in Central
+              Ghana.<br />
+              <br />
+
+              We are seeking to raise $8,000 to build a school classroom. Your
+              kindness would make a huge impact in those children's lives.
+            </p>
+          </div>
+          <div class="cta">
+            <a href="/moreinfo.html"
+              ><button
+                class="cta-select"
+                style="cursor: pointer; width: 170px;"
+              >
+                I need more info
+              </button></a
+            >
+            <button
+              class="cta-add"
+              style="cursor: pointer; width: 170px;"
+              onclick="donate()"
+            >
+              Donate
+            </button>
+          </div>
+        </div>
+        <div class="cover" style="flex-direction: column; align-self: center;">
+          <img
+            draggable="false"
+            style="align-self: center;"
+            src="./img/happykids.png"
+            alt=" Ayamye"
+            id="homeimg"
+          />
+          <br />
+          <br />
+          <strong
+            class="quote"
+            style="margin: auto; font-size: 25px; text-align: right;"
+            >In a Gentle Way, You can Shake the World <br />- Mahatma
+            Gandhi</strong
+          >
+        </div>
+      </section>
+
+      <img
+        class="big-circle c circle"
+        draggable="false"
+        src="./img/big-eclipse.svg"
+        alt=""
+      />
+      <img
+        class="medium-circle c circle"
+        draggable="false"
+        src="./img/mid-eclipse.svg"
+        alt=""
+      />
+      <img
+        class="small-circle c circle"
+        draggable="false"
+        src="./img/small-eclipse.svg"
+        alt=""
+      />
+    </main>
+    <script src="app.js"></script>
+    <script>
+      function donate() {
+        setTimeout(() => {
+          window.open(
+            "https://www.snap-raise.com/v2/fundraisers/think-kindness-2020?donation_invite_id=36337846&fundraiser_id=136485&share_type=coach_supporters_preload#/donation-levels",
+            "_blank"
+          );
+        }, 200);
+      }
+    </script>
+  </body>
+</html>
