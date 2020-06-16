@@ -430,7 +430,7 @@ html.is-leaving .transition-fade {
 }
 
 #logo {
-  width: 150px;
+  width: 100px;
 }
 
 .burger {
@@ -486,7 +486,7 @@ html.is-leaving .transition-fade {
   }
 }
 .logo {
-  height: 100px !important;
+  height: 50px !important;
   width: auto !important;
 }
 /*RESPONSIVE*/
